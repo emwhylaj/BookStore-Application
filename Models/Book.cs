@@ -16,7 +16,7 @@ namespace BookStore.Models
         public string Title { get; set; }
 
         public string Genre { get; set; }
-        public List<string> Authors { get; set; }
+        //public List<string> Authors { get; set; }
 
         [DataType(DataType.Currency)]
         [Range(1, 100)]
